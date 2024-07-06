@@ -1,0 +1,62 @@
+.AdminLogin{
+    background-image:  url('https://images.unsplash.com/photo-1564694202883-46e7448c1b26?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-size: 60% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+
+}
+
+.AdminLogin>form{
+    background-color:  rgba(255, 255, 255, 0.555);
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    max-width: 90%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.AdminLogin label{
+    /* color: rgb(255, 255, 255);
+     */
+     display: block;
+     margin-bottom: 5px;
+}
+.AdminLogin input{
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.AdminLogin button{
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: #007bff;
+    cursor: pointer;
+    color: #fff;
+}
+.AdminLogin button:hover {
+    background-color: #0056b3;
+  }
+.AdminLogin p{
+    margin-top: 10px;
+    text-align: center;
+}
+a {
+    color: #007bff;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }

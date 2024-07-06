@@ -1,0 +1,121 @@
+.AdminDashBoard{
+    /* background: linear-gradient(18deg,rgb(0, 200, 255),white); */
+    background: linear-gradient(135deg, #1c1c1c, #343434, #4e4e4e, #343434, #1c1c1c);
+    
+    
+    background-position: center;
+    background-attachment: fixed;
+    background-size: 100% ;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    color: white;
+    /* text-align: center; */
+    padding: 20px;
+    border-radius: 10px;
+    
+}
+
+.AdminDashBoard form{
+    display: flex;
+    justify-content: center;
+    margin-top: 170px;
+    align-items: center;
+    gap: 15px;
+}
+
+.AdminDashBoard input[type='text']{
+    height: 60px;
+    width: 200px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.AdminDashBoard button{
+    padding: 10px 20px;
+    height: 60px;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.AdminDashBoard button:hover{
+    background-color: #d01a1a;
+}
+.bus_list>p{
+    display: grid;
+    grid-template-rows: 100px 200px;
+    /* margin-left: 50px; */
+    border: 1px solid black;
+    justify-content: space-around;
+    align-content: space-between;
+    padding: 20px;
+    /* width: 100px; */
+    
+}
+.bus_item{
+    background:linear-gradient(135deg, #2a2a2a, #3d3d3d);
+    padding: 20px;
+    color: white;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 20px, 0.1);
+}
+
+/* .AdminDashBoard>p{
+    display: flex;
+    
+} */
+
+.footer_links{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 300px;
+    
+}
+
+.footer_link_section{
+    
+    box-shadow: 0px 0px 20px #2a2a2a;
+    width: 270px;
+    height: 50vh;
+    box-sizing: border-box;
+    background:linear-gradient(135deg, #2a2a2a, #3d3d3d);
+    color:#474747;
+    text-align: left;
+
+}
+
+.footer_main_logos img{
+    width: 200px;
+    height: 200px;
+}
+
+.footer_text{
+    color: #818181;
+}
+.footer_link_section>a{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5px;
+    text-decoration: none;
+    color: #818181;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

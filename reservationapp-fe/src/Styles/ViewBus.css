@@ -1,0 +1,65 @@
+/* ViewBus.css */
+
+.viewBus {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.bus_Details {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 90%;
+    margin: 20px auto;
+    padding: 35px;
+    background-color: #1e1e1e;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    color: #e0e0e0;
+}
+
+.bus_info {
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.bus_info h3 {
+    margin: 0;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.bus_info p, .bus_info i, .bus_actions button {
+    margin: 5px;
+}
+
+.bus_info p {
+    flex: 1;
+}
+
+.bus_info i {
+    margin-left: auto;
+}
+
+.bus_actions {
+    display: flex;
+    align-items: center;
+}
+
+.bus_actions button {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-left: 10px;
+}
+
+.bus_actions button:hover {
+    background-color: #c82333;
+}

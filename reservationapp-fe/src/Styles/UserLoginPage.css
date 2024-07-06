@@ -1,0 +1,64 @@
+.UserLogin{
+    background-image:  url('https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTA4L3Jhd3BpeGVsX29mZmljZV84X3Bob3RvX29mX3doaXRlX3RvdXJpc3RfYnVzX29uX3RoZV9yb2FkX2hpZ2hfcl8zNThjMmU2MC0yYTU4LTQ2ZjAtODdkMy02ZGY3YWE0YzExZDFfMS5qcGc.jpg');
+    background-size: 60% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+
+}
+
+.UserLogin>form{
+    background-color:  rgba(255, 255, 255, 0.555);
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    max-width: 90%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.UserLogin label{
+    color: rgb(255, 255, 255);
+    
+     display: block;
+     margin-bottom: 5px;
+}
+.UserLogin input{
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    background-color: #ccc;
+    color: rgb(99, 98, 98);
+}
+
+.UserLogin button{
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: #007bff;
+    cursor: pointer;
+    color: #fff;
+}
+.UserLogin button:hover {
+    background-color: #0056b3;
+  }
+.UserLogin p{
+    margin-top: 10px;
+    text-align: center;
+}
+a {
+    color: #007bff;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }

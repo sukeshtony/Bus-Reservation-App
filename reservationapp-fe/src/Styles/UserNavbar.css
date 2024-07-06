@@ -1,0 +1,33 @@
+.UserNavbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 10px 20px;
+    background-color: #1e1e1e;
+    color: #ffff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    /* height: 70px; */
+}
+
+.logo h1{
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #ff6f61;
+    display: flex;
+    align-items: center;
+    
+}
+
+.logo sup{
+    font-size: 0.75rem;
+    margin-left: 5px;
+    color: #ff9d94;
+
+
+}
+
+.options{
+    display: flex;
+    align-items: center;
+}
